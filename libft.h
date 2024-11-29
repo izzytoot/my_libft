@@ -6,7 +6,7 @@
 /*   By: icunha-t <icunha-t@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/28 17:37:52 by icunha-t          #+#    #+#             */
-/*   Updated: 2024/11/11 09:45:44 by icunha-t         ###   ########.fr       */
+/*   Updated: 2024/11/29 15:32:16 by icunha-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@
 # include <stdlib.h>
 # include <unistd.h>
 # include "printf/ft_printf.h"
+# include "gnl/get_next_line_bonus.h"
+# include "extras/extras.h"
 
 int		ft_atoi(const char *nptr);
 int		ft_isalnum(int c);
